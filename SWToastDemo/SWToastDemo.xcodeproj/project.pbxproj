@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561043A01E3682D500992A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5610439F1E3682D500992A0C /* AppDelegate.swift */; };
+		561043A21E3682D500992A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561043A11E3682D500992A0C /* ViewController.swift */; };
+		561043A51E3682D500992A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561043A31E3682D500992A0C /* Main.storyboard */; };
+		561043A71E3682D500992A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561043A61E3682D500992A0C /* Assets.xcassets */; };
+		561043AA1E3682D500992A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561043A81E3682D500992A0C /* LaunchScreen.storyboard */; };
+		563F78B91E38018B008F78A8 /* DeciceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F78B81E38018B008F78A8 /* DeciceHelper.swift */; };
+		563F78BB1E3801A9008F78A8 /* SWToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563F78BA1E3801A9008F78A8 /* SWToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5610439C1E3682D500992A0C /* SWToastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWToastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5610439F1E3682D500992A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561043A11E3682D500992A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561043A41E3682D500992A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561043A61E3682D500992A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561043A91E3682D500992A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561043AB1E3682D500992A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563F78B81E38018B008F78A8 /* DeciceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeciceHelper.swift; sourceTree = "<group>"; };
+		563F78BA1E3801A9008F78A8 /* SWToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWToast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561043991E3682D500992A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561043931E3682D500992A0C = {
+			isa = PBXGroup;
+			children = (
+				563F78B71E380185008F78A8 /* SWToast */,
+				5610439E1E3682D500992A0C /* SWToastDemo */,
+				5610439D1E3682D500992A0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5610439D1E3682D500992A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5610439C1E3682D500992A0C /* SWToastDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5610439E1E3682D500992A0C /* SWToastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5610439F1E3682D500992A0C /* AppDelegate.swift */,
+				561043A11E3682D500992A0C /* ViewController.swift */,
+				561043A31E3682D500992A0C /* Main.storyboard */,
+				561043A61E3682D500992A0C /* Assets.xcassets */,
+				561043A81E3682D500992A0C /* LaunchScreen.storyboard */,
+				561043AB1E3682D500992A0C /* Info.plist */,
+			);
+			path = SWToastDemo;
+			sourceTree = "<group>";
+		};
+		563F78B71E380185008F78A8 /* SWToast */ = {
+			isa = PBXGroup;
+			children = (
+				563F78BA1E3801A9008F78A8 /* SWToast.swift */,
+				563F78B81E38018B008F78A8 /* DeciceHelper.swift */,
+			);
+			name = SWToast;
+			path = SWToastDemo/SWToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5610439B1E3682D500992A0C /* SWToastDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561043AE1E3682D500992A0C /* Build configuration list for PBXNativeTarget "SWToastDemo" */;
+			buildPhases = (
+				561043981E3682D500992A0C /* Sources */,
+				561043991E3682D500992A0C /* Frameworks */,
+				5610439A1E3682D500992A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWToastDemo;
+			productName = SWToastDemo;
+			productReference = 5610439C1E3682D500992A0C /* SWToastDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561043941E3682D500992A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SevenWang;
+				TargetAttributes = {
+					5610439B1E3682D500992A0C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 561043971E3682D500992A0C /* Build configuration list for PBXProject "SWToastDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561043931E3682D500992A0C;
+			productRefGroup = 5610439D1E3682D500992A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5610439B1E3682D500992A0C /* SWToastDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5610439A1E3682D500992A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561043AA1E3682D500992A0C /* LaunchScreen.storyboard in Resources */,
+				561043A71E3682D500992A0C /* Assets.xcassets in Resources */,
+				561043A51E3682D500992A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561043981E3682D500992A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563F78B91E38018B008F78A8 /* DeciceHelper.swift in Sources */,
+				563F78BB1E3801A9008F78A8 /* SWToast.swift in Sources */,
+				561043A21E3682D500992A0C /* ViewController.swift in Sources */,
+				561043A01E3682D500992A0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		561043A31E3682D500992A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561043A41E3682D500992A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561043A81E3682D500992A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561043A91E3682D500992A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561043AC1E3682D500992A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561043AD1E3682D500992A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561043AF1E3682D500992A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SevenWang.SWToastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		561043B01E3682D500992A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SevenWang.SWToastDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561043971E3682D500992A0C /* Build configuration list for PBXProject "SWToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561043AC1E3682D500992A0C /* Debug */,
+				561043AD1E3682D500992A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561043AE1E3682D500992A0C /* Build configuration list for PBXNativeTarget "SWToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561043AF1E3682D500992A0C /* Debug */,
+				561043B01E3682D500992A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561043941E3682D500992A0C /* Project object */;
+}

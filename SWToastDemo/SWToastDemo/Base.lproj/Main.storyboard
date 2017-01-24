@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SWToastDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82g-sX-eOY">
+                                <rect key="frame" x="25" y="300.5" width="21" height="21"/>
+                                <color key="backgroundColor" red="0.89411764709999997" green="0.17659489070000001" blue="0.21307078339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="82g-sX-eOY" secondAttribute="height" multiplier="1:1" id="7Jy-EI-9F9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="双方的感觉开始了多个覅及" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCg-lI-BdI">
+                                <rect key="frame" x="58" y="301" width="233" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="82g-sX-eOY" firstAttribute="centerY" secondItem="jCg-lI-BdI" secondAttribute="centerY" id="9aX-HN-bYB"/>
+                            <constraint firstItem="jCg-lI-BdI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="281" id="D7c-EH-3Ce"/>
+                            <constraint firstItem="jCg-lI-BdI" firstAttribute="leading" secondItem="82g-sX-eOY" secondAttribute="trailing" constant="12" id="LWZ-qk-6rZ"/>
+                            <constraint firstItem="82g-sX-eOY" firstAttribute="height" secondItem="jCg-lI-BdI" secondAttribute="height" id="LbB-xJ-f1A"/>
+                            <constraint firstAttribute="trailing" secondItem="jCg-lI-BdI" secondAttribute="trailing" constant="84" id="TBR-Xk-jqB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jCg-lI-BdI" secondAttribute="bottom" constant="345" id="U35-N0-OG1"/>
+                            <constraint firstItem="82g-sX-eOY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="ocK-hk-IPu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
